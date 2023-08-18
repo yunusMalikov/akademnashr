@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border-top: 2px solid #FF7500;
+    height: 91.18px;
+}
+.navbar{
+    height: 59.18px;
+    width: 1100px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-page{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    gap: 12px;
+    color: #252420;
+}
+.logo-link{
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    font-size: 35px;
+}
+span{
+    color: #FF7500;
+}
+
+.pages{
+    margin-top: 10.5px;
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+}
+.pages a{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FF7500;
+}
+.sahifa_bot{
+    border-bottom: 2px solid #FF7500;   
+}
+#aksiya{
+    color: #252420;
+}
+#submit{
+    padding: 12px 24px;
+    background-color: #FF7500;
+    color: #fff;
+    border-radius: 5px;
+}
+.banner{
+    height: 488px;
+    background-color: #252420;
+    display: flex;
+    background-image: url();
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.pyton_dastur{
+    width: 387px;
+    height: 328px;
+    margin-top: 80px;
+    color: #fff;
+    display: flex;
+}
+.text_pyton{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+.banner-title{
+    position: relative;
+    margin-top: 40px;
+    
+}
+.chiziq{
+    position: absolute;  top:-40px ;
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+.text_dastur{
+    margin-top: 24px;
+}
+.text_dastur p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.tugma{
+    margin-top: 44px;
+}
+.btn{
+    padding: 12px 24px;
+    background-color: #FF7500;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.bgimage{
+    position: absolute;
+    content: "";
+    top: 40px;
+    left: 600px;
+    width: 450px;
+    height: 450px;
+}
+
+main{
+    margin-top: 213px;
+    height: 726px;
+}
+
+.chiziq2{
+    position: absolute; 
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+.main-text{
+    font-family:'Roboto Condensed', sans-serif ;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86.4px;
+    letter-spacing: 0.5px;
+    width: 435px;
+}
+.main_middle{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 1100px;
+    height: 245px;
+}
+.cursor{
+    width: 340px;
+    height: 245px;
+}
+.kursor_kichik{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 117, 0, 0.2);
+
+}
+.kursor_kichik img{
+    width: 47.12px;
+    height: 47.12px;
+    position: absolute;
+    top: 25.85%;
+    left: 25.85%;
+
+}
+.oson{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0.5px;
+    margin-top: 32px;
+}
+.sodda{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+    width: 314px;
+}
+.bolalar{
+    width: 1100px;
+    height: 419px;
+    background-color:  #252420;
+    border-radius: 12px;
+    display: flex;
+    color: #fff;
+}
+.ertak_dastur{
+    width: 440px;
+    height: 291px;
+    margin-top: 64px;
+    margin-left: 64px;
+}
+.text_ertak{
+    font-weight:700;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+}
+.text_sher{
+    font-weight:400;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 24px;
+}
+.tug{
+    margin-top: 36px;
+}
+.buton{
+    padding: 12px 24px;
+    background-color: #FF7500;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.backima{
+    position: absolute;
+    top: -100px;
+    left: 600px; 
+}
+.alohida{
+    color: #FF7500;
+}
+footer{
+    width: 100%;
+    height: 507px;
+    background-color: #F8F8F8;
+    margin-top: 150px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.icons img{
+    width: 24px;
+}
+.foot_nav{
+    height:156px;
+    width: 1100px;
+    margin: 67px auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(37, 36, 32, 0.5);
+}
+.foot-page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.fot-name{
+    margin-left: 12px;
+    margin-top: 10.5px;
+    width: 177px;
+    height: 38px;
+}
+.fot-name p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #252420;
+}
+.fot-name span{
+    color: #FF7500;
+}
+.lugat{
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+}
+.birinchi{
+    width: 224px;
+
+}
+#boshqa{
+    color: #FF7500;
+}
+.birinchi a{
+    display: block;
+    line-height: 34px;
+    font-family:'Roboto Condensed', sans-serif ;
+    font-size: 16px;
+    text-decoration: none;
+    color: #252420;
+}
